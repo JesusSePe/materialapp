@@ -29,38 +29,66 @@
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 </div>
             </nav>
-        
-            <!-- Sections -->
-            <!-- Search section -->
-            <div id="test-swipe-1" class="col s12 blue">
-                <input type="text" id="searchbar" placeholder="artist name here">
-                <button id="searchbutton" class="btn waves-effect waves-light">Search</button>
-                <ul class="collection">
-                    
-                </ul>
 
-            </div>
-
-            <!-- Details section -->
-            <div id="test-swipe-2" class="col s12 red">
-                <div class="details"></div>                                
-            </div>
-
-            <!-- Favourites section -->
-            <div id="test-swipe-3" class="col s12 green">Test 3</div>
 
             <!-- Sections bar-->
             <ul id="tabs" class="tabs">
-                <li class="tab col s3"><a href="#test-swipe-1">Search</a></li>
-                <li class="tab col s3"><a class="active" href="#test-swipe-2">Details</a></li>
-                <li class="tab col s3"><a href="#test-swipe-3">Favourites</a></li>
+                <li class="tab col s3 m3 l3 xl3"><a href="#swipe-1">Dashboard</a></li>
+                <li class="tab col s3 m3 l3 xl3"><a href="#swipe-2">Documents</a></li>
+                <li class="tab col s3 m3 l3 xl3"><a class="active" href="#swipe-3">UFs</a></li>
+                <li class="tab col s3 m3 l3 xl3"><a href="#swipe-4">Unknown</a></li>
             </ul>
+
+            <!-- Sections -->
+            <!-- Dashboard section -->
+            <div id="swipe-1" class="col s12 blue">
+                
+            </div>
+
+            <!-- Documents section -->
+            <div id="swipe-2" class="col s12 red">
+                                             
+            </div>
+
+            <!-- UFs section -->
+            <div id="swipe-3" class="col s12 green">
+                <div>
+                    <ul class="collapsible">
+                        <!--<li>
+                            <div class="collapsible-header">MP1. Sistemes informàtics</div>
+                            <div class="collapsible-body">
+                                <div class="row">
+                                    <div class="col s6 m4">UF1. Instal·lació, configuració i explotació del sistema informàtic</div>
+                                    <div class="col s6 m4">UF2. Gestió de la informació i de recursos en una xarxa</div>
+                                    <div class="col s6 m4">UF3. Implantació de programari específic</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header">MP2. Base de dades</div>
+                            <div class="collapsible-body">
+                                <div class="row">
+                                    <div class="col s6 m4">UF1. Introducció a les bases de dades</div>
+                                    <div class="col s6 m4">UF2. Llenguatges SQL: DML i DDL</div>
+                                    <div class="col s6 m4">UF3. Implantació de programari específic</div>
+                                </div>
+                            </div>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Unknown section -->
+            <div id="swipe-4" class="col s12 black">
+                
+            </div>
 
 
         <!--  Scripts-->
         <script src="cordova.js"></script>
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.js"></script>
+        <script src="js/db.js"></script>
         <script src="js/init.js"></script>
 
     </body>
