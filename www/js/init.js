@@ -11,7 +11,7 @@ function data() {
     jQuery.each( data_info['modules'], function( i, mp){
         $('.collapsible').first().append('<li><div class="collapsible-header">'+mp['code']+'. '+mp['name']+'</div><div class="collapsible-body"><div class="row"></div></div></li>');
         jQuery.each(mp['ufs'], function(x, uf){
-            $('.row').last().append('<div class="col s6 m4">'+uf['code']+'. '+uf['name']+'</div>');
+            $('.row').last().append('<label><div class="col s6 m4" style="color:black;"><input type="checkbox" class="filled-in"><span>'+uf['code']+'. '+uf['name']+'</span></input></div></label>');
         })
     });
 }
